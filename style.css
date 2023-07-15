@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+body{
+    background-color: whitesmoke;
+    background-repeat: repeat;
+    background-image: url(https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-craig-adderley-1563356.jpg&fm=jpg);
+}
+.form{
+    width: 280px;
+    padding: 10px;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    top:60px;
+    min-height: 50px;
+    overflow:hidden;
+}
+.form form input[type="text"]{
+    width: 95%;
+    padding: 10% 3%;
+    background-color: black;
+    text-align: right ;
+    border: none;
+    color: white;
+    font-size:60px;
+}
+.form form input[type="button"]{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: none;
+    margin-bottom: 10px;
+}
+.form form input[type="button"].z{
+    width: 135px;
+    height: 65px;
+    border-radius: 10%;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #333333;
+}
+.form input[type="button"].or{
+    background-color: rgb(255, 136, 0);
+    color: white;
+    font-size: 30px;}
+.form input[type="button"].n{
+    background-color: #333333;
+    color: white;
+    font-size: 30px;  
+}
+.form input[type="button"].ac{
+    width: 202px;
+    border-radius: 25px;  
+    background-color: rgba(128, 128, 128, 0.973) ;
+      
+}
